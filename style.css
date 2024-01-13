@@ -1,4 +1,27 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----*/
+main{
+    max-width: 1440px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+
 
 section{
     border: 1px solid green;
@@ -6,13 +29,10 @@ section{
 
 .about{
     display: flex;
-    max-width: 1440px;
-    padding: 0px 30px;
-    margin: 0 auto;
 }
 
 .about-1{
-    border: px solid red;
+    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 50%;
@@ -21,7 +41,7 @@ section{
 }
 
 /* .about-1 div{
-    border: px solid red;
+    border: 1px solid red;
     width: calc(100% - 10px);
 } */
 
@@ -47,11 +67,7 @@ section{
         width: 100%;
     }
 
-    .about-1 img{
-        width: %;
-    }
-
     .about-2{
         width: 100%;
     }
-}
+} 
