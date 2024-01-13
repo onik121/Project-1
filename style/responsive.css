@@ -1,0 +1,28 @@
+@media screen and (max-width:991px) {
+    .about{
+        flex-wrap: wrap;
+    }
+
+    .about-1{
+        width: 100%;
+    }
+
+    .about-2{
+        width: 100%;
+    }
+
+    .feature{
+        border: px solid black;
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .feature-content{
+        width: 100%;
+    }
+
+    .feature-img{
+        width: 100%;
+    }
+
+} 
